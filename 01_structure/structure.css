@@ -1,0 +1,55 @@
+header{
+	height: 200px;
+	/* les valeurs possibles pour les  couleurs sont soit des codes hexqdecimaux, soit des noms de couleur, soit des codes RGB */
+	background-color: #f1c40f;
+}
+
+nav{
+	height: 80px;
+	background-color: red;
+}
+
+section{
+	background-color: green;
+}
+
+div{
+	width: 200px;
+	height: 200px;
+	background-color: #8e44ad;
+	margin-top: 5px; /* marge en haut de 5px */
+}
+
+.mouvement-droite{
+	margin-left: 100px;
+}
+
+#coco{
+	border: 2px solid red;
+}
+
+aside{
+	height: 300px;
+	width: 10%; /* prend 10% de la largeur totale de l'écran */
+	background-color: tomato;
+}
+
+footer{
+	height: 80px;
+	background-color: yellow;
+}
+/*
+Pour appliquer un style à un groupe d'éléments, nous les nommons avec une classe. Puis nous stylisons la classe.
+Exemple :
+côté HTML
+<div class="nom-du-groupe"></div>
+côté CSS
+.nom-du-groupe{}
+
+Pour styliser un élément unique, nous utilisons les IDs.
+côté HTML
+<div id="nom-unique"></div>
+
+côté CSS
+#nom-unique{}
+*/
