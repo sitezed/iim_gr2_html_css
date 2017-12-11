@@ -1,0 +1,37 @@
+.cadre{
+	position: relative; /* j'indique relative, pour que les divs enfants qui possedent la propriete absolute; puisse prendre le CADRE comme point de départ aux déplacements */
+	margin: 20px;
+	height: 300px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid black;
+}
+
+.carre{
+	width: 100px;
+	height: 100px;
+}
+
+.rouge{
+	position: relative;
+	top: 100px; /* à partir du haut, je fais un deplacement de 100px. Point de départ : la position initiale*/
+	right: 200px; /* à partir du haut, je fais un deplacement de 100px. Point de départ : la position apres avoir appliqué le top 100px*/
+	background-color: red;
+}
+
+.bleu{
+	position: absolute; 
+	top: 100px; /* déplacement de 100px à partir du bord haut du parent qui possède la propriété relative. Sinon, le parent <body> */
+	right: 200px;
+	background-color: blue;
+}
+
+.jaune{
+	position: fixed; /* fixe, par rapport au navigateur */
+	background-color: yellow;
+}
+
+.grand{
+	height: 3000px;
+}
