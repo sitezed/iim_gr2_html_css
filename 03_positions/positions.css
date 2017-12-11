@@ -27,6 +27,20 @@
 	background-color: blue;
 }
 
+.vert{
+	background-color: green;
+}
+
+.vert:hover{
+	background-color: purple;
+}
+
+.vert:active{
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
 .jaune{
 	position: fixed; /* fixe, par rapport au navigateur */
 	background-color: yellow;
@@ -35,3 +49,4 @@
 .grand{
 	height: 3000px;
 }
+
