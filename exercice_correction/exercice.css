@@ -1,0 +1,78 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+header{
+	height: 100px;
+	background-color: black;
+}
+/* je vais chercher l'img se trouvant 
+dans le header */
+header img {
+	width: 160px;
+}
+
+/* agencer menu */
+.menu-haut {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/* styliser menu */
+.menu-haut div{
+	background-color: tomato;
+	height: 50px;
+	text-align: center;
+	/* aligner sur la hauteur */
+	line-height: 50px;
+	width: 120px;
+}
+
+.menu-haut div a {
+	color: white;
+	font-size: 20px;
+}
+
+/* agencer mes blocs de contenu */
+.contenu{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* Styliser mes blocs de contenu */
+
+aside{
+	height: 100%;
+	width: 400px;
+	background-color: silver;
+}
+article{
+	background-color: purple;
+	height: 300px;
+	width: 600px;
+}
+
+footer{
+	background-color: blue;
+	height: 80px;
+}
+.menu-bas{
+	text-align: center;
+}
+.menu-bas a {
+	font-size: 20px;
+	color: white;
+	margin-left: 20px;
+	/* hauteur de ligne 
+	pour centrer verticalement 
+	par rapport au nav */
+	line-height: 80px;
+}
+
+
+
