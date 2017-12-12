@@ -1,0 +1,72 @@
+img{
+	width: 100px;
+}
+
+section{
+	background-color: orange;
+}
+
+div{
+	background-color: blue;
+	margin: 5px;
+	padding: 10px; /* marge interieure */
+}
+
+span{
+	display: block;
+	background-color: red;
+	padding: 5px;
+	width: 200px;
+}
+ul{
+	background-color: yellow;
+}
+li{
+	background-color: tomato;
+}
+
+/* alignement de type inline-block */
+
+.menu-one a {
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: purple;
+	color: white;
+	margin: 5px;
+}
+
+/* alignement en float left */
+.menu-two a {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin: 5px;
+}
+.clearfix{
+	clear: left;
+}
+
+.menu-three{
+	display: flex;
+	flex-direction: row;
+}
+
+.menu-three div {
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: silver;
+	margin: 5px;
+}
+.menu-three div a {
+	color: white;
+}

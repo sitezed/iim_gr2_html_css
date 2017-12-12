@@ -1,6 +1,25 @@
+html{
+    height: 100%;
+}
 body{
-	background: url('http://longwallpapers.com/Desktop-Wallpaper/landscape-wallpapers-images-For-Desktop-Wallpaper.jpg');
+    height: 100%;
+	background: url('dbz.jpg');
+    /*
+    La propriété background-size 
+    permet d'ajuster l'image en background.
+    cover : va conserver les proportions 
+    de l'image et la découper par rapport 
+    au navigateur (de telle sorte 
+    que la photo recouvre tout le navigateur).
+    100% 100% : correspond à un étirage 
+    vertical et horizontal de 100% du body.
+    ATTENTION : mettre un height 100% sur 
+    le HTML et le body, pour utiliser ces valeurs.
+    contain: cette valeur met l'image entière 
+    en conservant sa taille d'origine 
+    */
 	background-size: cover;
+    background-repeat: no-repeat;
 }
 
 img{
@@ -8,7 +27,8 @@ img{
 }
 
 .fond-image{
-	height: 470px;
+	height: 100px;
+    width: 100px;
     background-image: url('bg-eagle.jpg');
     background-size: cover;
     background-position-y: 50%;
