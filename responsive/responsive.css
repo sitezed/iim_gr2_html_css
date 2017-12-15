@@ -1,0 +1,43 @@
+h1{
+	text-align: center;
+}
+.desktop-version{
+	display: flex;
+	justify-content: space-between;
+}
+.desktop-version aside{
+	width: 500px;
+	height: 600px;
+	background-color: lightgrey;
+	padding: 50px;
+}
+.desktop-version article{
+	background-color: pink;
+	padding: 50px;
+}
+.mobile-version{
+	display: none;
+}
+/* Version responsive Mobile, ecran inferieur à 470px */
+@media screen and (max-width: 470px)
+{
+/* Tout le code CSS mobile, ici*/
+    .desktop-version{
+	display: none;
+	}
+
+	.mobile-version{
+	display: block;
+	}
+
+	h1{
+		font-size: 18px;
+	}
+	.mobile-version article{
+		padding: 10px;
+		background-color: tomato;
+	}
+
+
+/* FIN code CSS mobile */
+}
