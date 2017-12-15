@@ -40,3 +40,18 @@ nav{
 	height: 20%;
 	width: 100%;
 }
+
+.alignement-milieu{
+	height: 600px;
+	width: 60%;/* par rapport au parent */
+	display: flex;
+	justify-content: center;
+}
+.milieu-gauche{
+	height: 40%;/* par rapport au parent */
+	width: 50%;/* par rapport au parent */
+}
+.milieu-droite{
+	height: 60%;/* par rapport au parent */
+	width: 50%;/* par rapport au parent */
+}
