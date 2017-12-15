@@ -12,6 +12,7 @@ header{
 	height: 120px;
 	display: flex;
 	justify-content: center;
+	border-bottom: 1px solid;
 }
 header > div{
 	height: 100%;
@@ -41,9 +42,18 @@ nav{
 	width: 100%;
 }
 
+.parent-du-cadre-milieu{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+.cadre-milieu{
+	width: 60%;
+	border: 2px dotted black;
+}
 .alignement-milieu{
 	height: 400px;
-	width: 60%;/* par rapport au parent */
+	width: 100%;/* par rapport au parent */
 	display: flex;
 	justify-content: center;
 }
@@ -59,7 +69,7 @@ nav{
 .alignement-bas{
 	margin-top: 30px;
 	height: 30px;
-	width: 60%;/* par rapport au parent */
+	width: 100%;/* par rapport au parent */
 	display: flex;
 	justify-content: space-between;
 }
@@ -70,4 +80,17 @@ nav{
 .bas-droite{
 	height: 100%;/* par rapport au parent */
 	width: 20%;/* par rapport au parent */
+}
+footer{
+	margin-top: 50px;
+	background: silver;
+	height: 100px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+footer > div{
+	border: 2px dotted black;
+	height: 50px;
+	width: 60%;
 }
