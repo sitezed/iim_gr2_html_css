@@ -42,16 +42,32 @@ nav{
 }
 
 .alignement-milieu{
-	height: 600px;
+	height: 400px;
 	width: 60%;/* par rapport au parent */
 	display: flex;
 	justify-content: center;
 }
 .milieu-gauche{
-	height: 40%;/* par rapport au parent */
+	height: 70%;/* par rapport au parent */
 	width: 50%;/* par rapport au parent */
 }
 .milieu-droite{
-	height: 60%;/* par rapport au parent */
+	height: 100%;/* par rapport au parent */
 	width: 50%;/* par rapport au parent */
+}
+
+.alignement-bas{
+	margin-top: 30px;
+	height: 30px;
+	width: 60%;/* par rapport au parent */
+	display: flex;
+	justify-content: space-between;
+}
+.bas-gauche{
+	height: 100%;/* par rapport au parent */
+	width: 70%;/* par rapport au parent */
+}
+.bas-droite{
+	height: 100%;/* par rapport au parent */
+	width: 20%;/* par rapport au parent */
 }
