@@ -1,0 +1,42 @@
+.bleu{
+	background-color: blue;
+}
+.vert{
+	background-color: green;
+}
+.orange{
+	background-color: orange;
+}
+header{
+	background-color: silver;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+}
+header > div{
+	height: 100%;
+	width: 60%; /* ceci represente 60% de la largeur du parent (a defaut c'est 100%)*/
+}
+
+.haut{
+	height: 80%; /* ceci represente 80% de la hauteur du parent */
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* la virgule signifie que j'applique à haut-gauche ET haut-droite */
+.haut-gauche,
+.haut-droite{
+	height: 100%; /* ceci represente 100% de la hauteur du parent */
+}
+.haut-gauche{
+	width: 60%; /* ceci represente 60% de la largeur du parent (a defaut c'est 100%)*/
+}
+.haut-droite{
+	width: 30%;
+}
+nav{
+	height: 20%;
+	width: 100%;
+}
